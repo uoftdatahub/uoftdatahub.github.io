@@ -8,8 +8,8 @@
 		}
 	div.button
 	{
-		width: 40px;
-		height: 40px;
+		width: 48px;
+		height: 48px;
 		background-color: #00204E;
 		padding: 0px;
 	}
@@ -23,7 +23,6 @@
 		var theURL = u;
 		var JS_GET = new Object();
 		var splitURL = theURL.split('?');
-
 		if(splitURL.length>1) {
 			var splitVars = splitURL[1].split('&');
 			for(i=0; i< splitVars.length; i++){
@@ -35,7 +34,6 @@
 			return false;
 		}
 	}
-
 	function open_dcb_summary() {
 		var url_parms = get_url_params(location.href);
 		if (url_parms.report_id!==undefined) {
@@ -49,9 +47,8 @@
 		}
 	}
 </script>
-
 </head>
 <body>
-	<a class="button" href="" onclick="open_dcb_summary();return(false);"><div class="button"><img src="https://data.utoronto.ca/wp-content/uploads/2019/01/Info__White-1.png"/></div></a>
+	<a class="button" href="" onclick="open_dcb_summary();return(false);"><div class="button"><img src="https://data.utoronto.ca/wp-content/uploads/2019/01/Info__White-e1548105710572.png" width="48" height="48"/></div></a>
 </body>
 </html>
